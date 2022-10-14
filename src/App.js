@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import {CardVideo} from './components/CardVideo'
 
 export default function App() {
   const titulo = "Título do vídeo";
@@ -67,6 +68,7 @@ export default function App() {
           <h4>Oi! Eu moro no footer!</h4>
         </footer>
       </div>
+      <CardVideo/>
     </div>
   );
 }
